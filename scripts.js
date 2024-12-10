@@ -15,7 +15,7 @@ form.querySelector('.btn').addEventListener('click', function(event) {
         "fungi_id": form.fungi_id.value
     };
 
-    fetch('http://localhost:5002/analyze', {
+    fetch('http://backend:5000/analyze', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
